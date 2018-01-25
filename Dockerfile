@@ -13,3 +13,4 @@ USER root
 # docker build -t create-react-app .
 # docker run -v $(pwd):/my-app create-react-app npx create-react-app my-app
 # docker run -v $(pwd):/my-app -w /my-app -p 3000:3000 create-react-app npm start
+# docker run -v $(pwd):/my-app -w /my-app -p 3000:3000 create-react-app npm build
